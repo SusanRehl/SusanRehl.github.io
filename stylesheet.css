@@ -1,0 +1,80 @@
+h1 {
+	font-size: 30px;
+	color: #056881;
+	text-indent: 5px;
+}
+h2 {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	color: #056881;
+	padding-top: 5px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+p {
+	padding: 0;
+	margin: .5em;
+	text-decoration: none;
+}
+a:link {
+	color: #056881;
+}
+.header {
+	font-family: 'Trebuchet MS', sans-serif;
+	background-color: #bcebf7;
+	padding-bottom: 45px;
+}
+.contactinfo {
+	font-size: 14px;
+	text-indent: 85px;
+	float: right;
+}
+.bodycopy {
+	clear: both;
+}
+.jobtitle {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.jobtime {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	padding-right: 10px;
+}
+.jobcompany {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+	padding-left: 10px;
+	clear: right;
+}
+.jobheaderbox {
+	background-color: #bcebf7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	clear: both;
+}
+.chartwebsite {
+	float: right;
+	margin-left: 10px;
+}
+.chart {
+	text-align: right;
+	margin-right: -5px;
+}
+.webbox {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #66abbc;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
