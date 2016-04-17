@@ -1,3 +1,10 @@
+html, body, h1, h2, h3, p, ul, li, a {
+	font-size: 100%;
+	font: inherit;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
 h1 {
 	font-size: 30px;
 	color: #056881;
@@ -6,20 +13,50 @@ h1 {
 h2 {
 	font-family: 'Trebuchet MS', sans-serif;
 	font-size: 18px;
+	text-transform: uppercase;
 	color: #056881;
-	padding-top: 5px;
+	padding: 10px 0 5px 0;
+}
+h3 {
+	font-weight: bold;
+	padding: 3px 0 0 0;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
+	margin: 0 20px 0 20px;
 }
 p {
 	padding: 0;
-	margin: .5em;
 	text-decoration: none;
 }
 a:link {
 	color: #056881;
+}
+ul li {
+	list-style: square inside;
+	margin: 0 0 0 10px;
+}
+footer {
+	font-weight: bold;
+	color: #056881;
+	text-align: center;
+  padding-top: 5px;
+	background-color: #bcebf7;
+	margin-top: 7px;
+}
+aside {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #66abbc;
+	padding: 3px 7px 3px 7px;
+	margin: 5px 0 5px 0;
+	float: right;
+	margin-left: 10px;
+	padding: 0 0 -10px 0;
+	}
 }
 .header {
 	font-family: 'Trebuchet MS', sans-serif;
@@ -30,6 +67,7 @@ a:link {
 	font-size: 14px;
 	text-indent: 85px;
 	float: right;
+	margin-right: 5px;
 }
 .bodycopy {
 	clear: both;
@@ -55,26 +93,15 @@ a:link {
 }
 .jobheaderbox {
 	background-color: #bcebf7;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 5px 0 5px 0;
+	margin: 5px 0 0 0;
 	clear: both;
 }
-.chartwebsite {
-	float: right;
-	margin-left: 10px;
-}
 .chart {
-	text-align: right;
-	margin-right: -5px;
+	text-align: left;
+	padding: 5px 10px 5px 0;
+	float: left;
 }
-.webbox {
-	font-family: 'Trebuchet MS', sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	text-align: center;
-	background-color: #66abbc;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	margin-top: 3px;
-	margin-bottom: 5px;
+.shadow {
+	box-shadow: 2px 2px 3px #056881;
 }
